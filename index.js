@@ -65,7 +65,7 @@ const { autoGame } = require('./src/games/autoRun');
       <p style="text-indent: 2em">游戏结果：${game_res}</p><br/>
     `;
 
-    // console.log(html);
+    console.log(html);
 
     await sendMail({ from: '掘金', subject: '定时任务', html });
 
